@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="te">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Happy Father's Day Papa ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+```
+
+</head>
+
+<body>
+<div class="hearts"></div>
+<!-- Welcome Screen -->
+
+<section class="hero">
+
+    <img src="images/welcome.png" alt="Family Photo" class="hero-img">
+
+    <div class="overlay">
+
+        <h1>మా జీవితానికి బలమైన పునాది ❤️</h1>
+
+        <p>ప్రపంచంలోనే ఉత్తమమైన నాన్నకు...</p>
+
+        <button class="heart-btn" onclick="openLetter()">
+            Open Letter
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- Letter Section -->
+
+<section class="letter-section" id="letter">
+
+    <div class="letter-card">
+        <img src="images/pappa-bg.png" class="letter-bg" alt="Papa">
+
+        <h2>ప్రియమైన నాన్నగారికి ❤️</h2>
+
+        <p id="typingLetter">
+
+            ఈ ప్రపంచంలో మేము మొదటి అడుగు వేసిన రోజు నుండి
+            మా ప్రతి అడుగుకి తోడుగా నిలిచింది మీ ప్రేమ.
+
+            <br><br>
+
+            మేము సంతోషంగా ఉండాలని మీరు ఎన్నో కష్టాలు పడ్డారు.
+            మా కలలు నిజం కావాలని మీ కోరికలను కూడా పక్కన పెట్టారు.
+
+            <br><br>
+
+            మేము నవ్వితే మీరు సంతోషించారు.
+            మేము బాధపడితే మీరు లోపలే బాధపడ్డారు.
+
+            <br><br>
+
+            
+
+            మీరు మాకు కేవలం నాన్న మాత్రమే కాదు...
+
+            <br><br>
+
+            మా మొదటి హీరో ❤️
+            <br>
+            మా మొదటి గురువు ❤️
+            <br>
+            మా జీవితానికి వెలుగు ❤️
+
+            <br><br>
+
+            మీ పిల్లలుగా పుట్టడం మా అదృష్టం.
+
+            <br><br>
+
+            హ్యాపీ ఫాదర్స్ డే pappa❤️
+
+        </p>
+
+        <button onclick="showGallery()">
+            Memory Gallery
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- Memory Gallery -->
+
+<section class="gallery-section" id="gallery">
+
+    <h2>మన అందమైన జ్ఞాపకాలు 📸</h2>
+
+    <p class="gallery-text">
+        Photo పై click చేయండి ❤️
+    </p>
+
+    <div class="flip-card" onclick="nextPhoto()">
+
+        <img id="memoryPhoto"
+            src="images/photo1.png"
+            alt="Memory Photo">
+    </div>
+
+    <button onclick="showVoice()">
+        Voice Message
+    </button>
+
+</section>
+
+
+<!-- Voice Message Section -->
+
+<section class="voice-section" id="voice">
+
+    <h2>మీ కోసం నా హృదయం నుంచి ఒక చిన్న సందేశం ❤️🎤</h2>
+
+    <p>
+        ఈ button click చేసి నా voice వినండి ❤️
+    </p>
+
+    <div class="glow-box">
+
+        <audio controls style="width: 300px">
+
+            <source src="./audio/pappa.mp3">
+
+            Your browser does not support audio.
+
+        </audio>
+
+    </div>
+
+    <button onclick="showFinal()">
+        Final Surprise
+    </button>
+
+</section>
+
+
+<!-- Final Section -->
+
+<section class="final-section" id="final">
+
+    <h1>❤️ మీరు మా హీరో ❤️</h1>
+
+    <p>
+
+        మా జీవితంలో మీ స్థానాన్ని
+        ఎవరూ భర్తీ చేయలేరు.
+
+        <br><br>
+
+        మీరు మాకు ఇచ్చిన ప్రేమ,
+        ధైర్యం,
+        ఆశీర్వాదం...
+
+        జీవితాంతం మాతోనే ఉంటాయి.
+
+        <br><br>
+
+        <h2>Happy Father's Day Pappa❤️</h2>
+
+    </p>
+
+</section>
+
+<script src="script.js"></script>
+
+<div class="circle-transition" id="circle"></div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+
+</html>
